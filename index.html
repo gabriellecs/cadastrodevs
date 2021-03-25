@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container pt-3">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">
+                    <h1 style="color: brown;">
+                        <center> Cadastro DEVs
+                        </center>
+                    </h1>
+                    <p>
+                        <h4>
+                            <center>Complete suas informações</center>
+                        </h4>
+                    </p>
+                </p>
+                <div class="mb-2">
+                    <label for="nome" class="form-label">Nome completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder=""><br>
+                    <p>Qual aplicação você desenvolve?</p>
+                    <input type="radio" name="drone" value="huey" checked><label for="fronend"> &nbsp;Front-end</label> &nbsp;&nbsp;
+                    <input type="radio" name="drone" value="huey" checked><label for="backend">&nbsp;Back-end</label>&nbsp;&nbsp;
+                    <input type="radio" name="drone" value="huey" checked><label for="fulltack"> &nbsp;Fullstack</label>
+                    <br>
+                    <br>
+                    <p>Senioridade: </p>
+                    <select class="form-select" id="escolha" aria-label="Escolha">
+                        <option value="emc">Ensino Médio cursando</option>
+                        <option value="emcc">Ensino Médio completo</option>
+                        <option value="esc">Ensino Superior cursando</option>
+                        <option value="escc">Ensino Superior completo</option>
+                    </select>
+                    <br>
+                    <p>Selecione as tecnologias que você utiliza:</p>
+                    <input type="checkbox" name="html"> HTML
+                    <input type="checkbox" name="css"> CSS
+                    <input type="checkbox" name="js"> JavaScrip
+                    <input type="checkbox" name="java"> Java>
+                    <input type="checkbox" name="phyton"> Phyton
+
+                    <br>
+                    <br>
+                    <p>Conte um pouco da sua experiência:</p>
+                    <input [type="Digite" ] { width: 100px;}>
+                    <br>
+                    <br>
+                    <button>Concluído</button>
+                </div>
+
+
+</body>
+
+</html>
